@@ -21,5 +21,9 @@ public class ExecuteSQL03Refactor {
 					bean.getName() + "\t\t\\" +
 					bean.getPrice());
 		}
+		
+		
 	}
+	
+	
 }
