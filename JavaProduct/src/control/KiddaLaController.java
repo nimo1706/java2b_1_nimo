@@ -11,13 +11,12 @@ package control;
 
 import java.util.ArrayList;
 
-import model.Customer;
-import model.OrderDetail;
-import view.DeliveryConfirmFrame;
-import action.CustomerSearchAction;
 import action.CustomerSearchDisplayAction;
 import action.MainMenuDisplayAction;
 import action.PrintOutAction;
+import model.Customer;
+import model.OrderDetail;
+import view.DeliveryConfirmFrame;
 
 public class KiddaLaController {
 
@@ -62,5 +61,10 @@ public class KiddaLaController {
 
 	public static int deliveryComplete(String custId) throws Exception {
 		return 0;
+	}
+
+	public static String[][] customerSearch(String[] data) {
+		// TODO 自動生成されたメソッド・スタブ
+		return null;
 	}
 }

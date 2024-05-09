@@ -26,9 +26,9 @@ import javax.swing.table.DefaultTableColumnModel;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableColumn;
 
+import control.KiddaLaController;
 import model.Customer;
 import model.OrderControlUtility;
-import control.KiddaLaController;
 
 public class CustomerSearchFrame extends JFrame implements ActionListener {
 
@@ -202,5 +202,11 @@ public class CustomerSearchFrame extends JFrame implements ActionListener {
 				OrderControlUtility.systemErrorMessage(CustomerSearchFrame.this, ex);
 			}
 		}
+		
+		
 	}
+	
+	
 }
+
+
