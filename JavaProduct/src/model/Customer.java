@@ -1,36 +1,58 @@
 package model;
 
 public class Customer {
+	private int custId;
+	private String custName;
+	private String kana;
+	private String tel;
+	private String address;
 
-	public Customer(int intCustId, String custName, String kana, String tel, String address) {
-		// TODO 自動生成されたコンストラクター・スタブ
+	public Customer(int custId, String custName, String kana, String tel, String address) {
+		this.custId = custId;
+		this.custName = custName;
+		this.kana = kana;
+		this.tel = tel;
+		this.address = address;
+	}
+
+	public void setCustId(int custId) {
+		this.custId = custId;
 	}
 
 	public int getCustId() {
-		// TODO 自動生成されたメソッド・スタブ
-		return 0;
+		return custId;
+	}
+
+	public void setCustName(String custName) {
+		this.custName = custName;
 	}
 
 	public String getCustName() {
-		// TODO 自動生成されたメソッド・スタブ
-		return null;
+		return custName;
+	}
+
+	public void setkana(String kana) {
+		this.kana = kana;
 	}
 
 	public String getKana() {
-		// TODO 自動生成されたメソッド・スタブ
-		return null;
+		return kana;
 	}
 
-	public String getAddress() {
-		// TODO 自動生成されたメソッド・スタブ
-		return null;
+	public void setTel(String tel) {
+		this.tel = tel;
 	}
 
 	public String getTel() {
-		// TODO 自動生成されたメソッド・スタブ
-		return null;
+		return tel;
 	}
-	
-	
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
+	public String getAddress() {
+		return address;
+	}
 
 }

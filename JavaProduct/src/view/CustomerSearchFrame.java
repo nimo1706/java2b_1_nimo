@@ -202,11 +202,5 @@ public class CustomerSearchFrame extends JFrame implements ActionListener {
 				OrderControlUtility.systemErrorMessage(CustomerSearchFrame.this, ex);
 			}
 		}
-		
-		
 	}
-	
-	
 }
-
-
