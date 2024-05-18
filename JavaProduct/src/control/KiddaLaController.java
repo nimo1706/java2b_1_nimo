@@ -64,7 +64,6 @@ public class KiddaLaController {
 	}
 
 	public static String[][] customerSearch(String[] data) {
-		// TODO 自動生成されたメソッド・スタブ
 		return null;
 	}
 }

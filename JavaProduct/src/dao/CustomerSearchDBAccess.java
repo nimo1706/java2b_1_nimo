@@ -12,11 +12,23 @@ public class CustomerSearchDBAccess {
 
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/KIDDA_LA", "webapp", "webapp");
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/KIDDA_LA", "user1", "pass1");
 		} catch (ClassNotFoundException | SQLException e) {
 			throw new RuntimeException(e);
 		}
-
+		
+		return con;
+	}
+	private Connection closeConnection(Connection con){
+		
+		
+		try {
+			if(con != null) {
+				con.close();
+			}
+		} catch (SQLException e) {
+			throw new RuntimeException(e);
+		}
 		return con;
 	}
 }
