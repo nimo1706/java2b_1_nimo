@@ -1,5 +1,5 @@
 /**
-F * クラス名：	OrderInputFrame
+ * クラス名：	OrderInputFrame
  * 概要　　：	「注文／配達情報／顧客情報変更」画面
  * 作成者名：
  * 作成日　：

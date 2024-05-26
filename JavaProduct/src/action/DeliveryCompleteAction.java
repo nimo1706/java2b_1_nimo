@@ -9,6 +9,11 @@
 
 package action;
 
+
 public class DeliveryCompleteAction {
 
+	public int execute(String custId) throws Exception {
+
+		return 0;
+	}
 }

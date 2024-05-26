@@ -11,7 +11,6 @@ package model;
 
 import java.net.URL;
 import java.util.ArrayList;
-
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
@@ -19,8 +18,6 @@ import javax.swing.JOptionPane;
 public class OrderControlUtility {
 
 	public static String[][] customerToArray(ArrayList<Customer> list) {
-		
-		
 
 		int listSize = list.size();
 		String[][] tableData = new String[listSize][4];
@@ -33,8 +30,6 @@ public class OrderControlUtility {
 			tableData[i][2] = customer.getKana();
 			tableData[i][3] = customer.getAddress();
 		}
-		
-		
 
 		return tableData;
 	}

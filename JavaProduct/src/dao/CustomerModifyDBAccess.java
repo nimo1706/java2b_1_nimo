@@ -1,5 +1,5 @@
 /**
- * クラス名：	CustomerModifyDBAccess
+s * クラス名：	CustomerModifyDBAccess
  * 概要　　：	顧客情報変更DAO
  * 作成者名：
  * 作成日　：
@@ -36,5 +36,4 @@ public class CustomerModifyDBAccess extends CustomerSearchDBAccess {
 			}
 		
 	}
-	
 }
